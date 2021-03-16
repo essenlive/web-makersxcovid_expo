@@ -7,12 +7,13 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Montserrat', ...defaultTheme.fontFamily.sans],
+        sans: ['Open Sans', ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        'primary': '#00ffff',
-        'secondary': '#00ffff',
-      }
+        'primary': '#fbd014',
+        'secondary': '#0d04f5',
+      },
+       transform: ['hover', 'focus'],
     },
   },
   variants: {
