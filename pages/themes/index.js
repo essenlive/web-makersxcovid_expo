@@ -40,7 +40,7 @@ const Themes = (props) => {
                                 <h2 className="text-lg font-black text-gray-900 font-medium title-font mb-2 uppercase">Urgence</h2>
                                 <p className="leading-relaxed font-medium text-sm">
                                     “Il y’a eu une espèce de mouvement de foule qui a bien pris. En fait c’est plein de théories qu’on a pu mettre en pratique, globalement tous ensemble.”<br/>
-                                    Soumaya, Ars Longa, cf. annexe 13
+                                    <span className="font-bold italic">Soumaya, Ars Longa</span>
                                 </p>
                                     <a className="mt-4 text-black font-black inline-flex items-center">Voir les photos
                                         <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -72,7 +72,7 @@ const Themes = (props) => {
                                 <h2 className="text-lg font-black text-gray-900 font-medium title-font mb-2 uppercase">Réseau(x)</h2>
                                 <p className="leading-relaxed font-medium text-sm">
                                     “Ces initiatives-là ont permis de montrer à quoi sert un fablab : un lieu, des machines, et une communauté. On a pu produire et redistribuer à un moment où la puissance publique n’avait pas la faculté de faire le lien avec le territoire comme ça.”<br/>
-                                    Grégoire, La Tréso/Les Fabriqueurs, cf. annexe 11
+                                    <span className="font-bold italic">Grégoire, La Tréso/Les Fabriqueurs</span>
                                 </p>
                                     <a className="mt-4 text-black font-black inline-flex items-center">Voir les photos
                                         <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -103,7 +103,8 @@ const Themes = (props) => {
                                     h-full"> 
                                 <h2 className="text-lg font-black text-gray-900 font-medium title-font mb-2 uppercase">Production</h2>
                                 <p className="leading-relaxed font-medium text-sm">“On a fédéré un réseau de makers, des fablabs, des écoles, des laboratoires, des industriels auprès de qui on organisait notre production. Il y’avait plusieurs modèles de visières, on a essayé de chercher les infos pour savoir quel était le modèle le plus intéressant, le plus viable, aussi bien auprès des makers que pour les hôpitaux.”<br/>
-                                Aurélien, Initiative 3D, cf. annexe 12</p>
+                                <span className="font-bold italic">Aurélien, Initiative 3D</span>
+                                </p>
                                     <a className="mt-4 text-black font-black inline-flex items-center">Voir les photos
                                         <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                         <path d="M5 12h14"></path>
@@ -133,7 +134,8 @@ const Themes = (props) => {
                                     h-full"> 
                                 <h2 className="text-lg font-black text-gray-900 font-medium title-font mb-2 uppercase">Demain</h2>
                                 <p className="leading-relaxed font-medium text-sm">“Je trouve que ce qui s’est passé a mis en avant l’utilité de ces lieux qui se situent entre espaces publics, espaces privés, espaces professionnels… Et que ça avait un réel intérêt. Ça a vraiment développé cet aspect du faire ensemble et de faire communauté. C’est pour moi d’ailleurs l’enjeu prioritaire des tiers-lieux. “<br/>
-                                Michaël, Volumes, cf. annexe 15</p>
+                                <span className="font-bold italic">Michaël, Volumes</span>
+                                </p>
                                     <a className="mt-4 text-black font-black inline-flex items-center">Voir les photos
                                         <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                         <path d="M5 12h14"></path>
