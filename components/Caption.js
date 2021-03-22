@@ -11,7 +11,7 @@ const Caption = (props) => {
           {props.description}
         </p>
       </div>
-      <div className="flex flex-row bg-white text-sm border-4 border-black mt-4">
+      <div className="flex flex-row bg-white text-sm border-4 border-black mt-10">
         <Link href={props.prevUrl}>
           <div className="p-4 font-bold w-2/5 inline-flex cursor-pointer items-center justify-center">
             <svg
