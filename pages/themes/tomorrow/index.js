@@ -17,7 +17,7 @@ const Tomorrow = (props) => {
           theme="Demain"
           description="Et si demain nous n’attendions pas la crise...?
           Cette mobilisation aura été l’expérience grandeur nature d’une coopération entre les collectivités locales et ces nouveaux espaces émergents. Tous ont innové pour activer des réseaux de fabrication décentralisée de matériel, grâce à leur communauté de bénévoles."
-          nextUrl=""
+          nextUrl="/themes/tomorrow/1"
           prevUrl=""
         />
       </Section>
