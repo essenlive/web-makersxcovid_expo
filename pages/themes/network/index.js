@@ -1,31 +1,25 @@
-import Head from "next/head";
-import NavigationBar from "@components/NavigationBar";
-import Footer from "@components/Footer";
-import Link from "next/link";
+import Layout from "@components/Layout";
+import Section from "@components/Section";
+import Photo from "@components/Photo";
+import Caption from "@components/Caption";
 
 const Network = (props) => {
   return (
-    <div className="">
-      <Head>
-        <title>MakersCovid Paris | Réseau(x) </title>
-      </Head>
-
-      <NavigationBar />
-
-      <section className="text-black body-font">
-        <div className="min-h-screen w-screen object-cover top-0 fixed z-0">
-          <div className="h-screen w-screen bg-white bg-opacity-25 top-0 absolute z-10"></div>
-          <img
-            className="h-screen w-screen object-cover top-0 absolute"
-            src="/photos/home/draft_ateliers-1-quentin_chevrier.jpg"
-            alt="Draft Ateliers - Crédit Photo : Quentin Chevrier"
-          />
-        </div>
-        <div className="min-h-screen w-screen object-cover top-0 fixed z-0"></div>
-      </section>
-
-      <Footer />
-    </div>
+    <Layout title="Réseau(x)">
+      <Photo
+        src="/photos/network/pitiee_salpetriere-1-quentin_chevrier.jpg"
+        alt="La Pitié Salpetrière - Crédit Photo : Quentin Chevrier"
+        name="Quentin Chevrier"
+      />
+      <Section>
+        <Caption
+          theme="Réseau(x)"
+          description="En quelques jours, le réseau s’organise : il faut trouver les matériaux, centraliser les demandes et répartir la production entre les lieux. Associations, fablabs, tiers-lieux, entreprises, médiathèques ou encore écoles : ces espaces aux profils très différents forment un réseau de réseaux dont la solidarité est le pivot."
+          nextUrl="/themes/network/1"
+          prevUrl="/themes/network/4"
+        />
+      </Section>
+    </Layout>
   );
 };
 

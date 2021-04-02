@@ -3,24 +3,24 @@ import Section from "@components/Section";
 import Photo from "@components/Photo";
 import Caption from "@components/Caption";
 
-const U3 = (props) => {
+const N1 = (props) => {
   return (
-    <Layout title="Demain">
+    <Layout title="Réseau(x)">
       <Photo
-        src="/photos/tomorrow/carton_plein_fred-1-quentin_chevrier.jpg"
+        src="/photos/network/carton_plein-1-quentin_chevrier.jpg"
         alt="Carton Plein - Crédit Photo : Quentin Chevrier"
         name="Quentin Chevrier"
       />
       <Section>
         <Caption
-          theme="Demain"
+          theme="Réseau(x)"
           description="Carton Plein"
-          nextUrl="/themes/tomorrow/4"
-          prevUrl="/themes/tomorrow/2"
+          nextUrl="/themes/network/2"
+          prevUrl="/themes/network/"
         />
       </Section>
     </Layout>
   );
 };
 
-export default U3;
+export default N1;

@@ -16,7 +16,7 @@ export default function Home() {
         <Section>
 
           <Link href="/themes">
-            <button className="flex hover:bg-white uppercase cursor-pointer h-min border-4 p-4 border-black text-base font-bold mt-12 items-center mx-auto">
+          <button className="flex bg-white hover:bg-transparent uppercase cursor-pointer h-min border-4 p-4 border-black text-base font-bold mt-12 items-center mx-auto">
               Découvrir les photos
               <svg
                 xmlns="http://www.w3.org/2000/svg"

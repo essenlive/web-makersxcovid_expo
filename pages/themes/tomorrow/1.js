@@ -8,13 +8,13 @@ const U1 = (props) => {
     <Layout title="Demain">
       <Photo
         src="/photos/tomorrow/mediatheque_marguerite_duras-1-quentin_chevrier.jpg"
-        alt="Atelier Draft - Crédit Photo : Quentin Chevrier"
+        alt="Médiatheque Marguerite Duras - Crédit Photo : Quentin Chevrier"
         name="Quentin Chevrier"
       />
       <Section>
         <Caption
           theme="Demain"
-          description="Atelier Draft"
+          description="Médiatheque Marguerite Duras"
           nextUrl="/themes/tomorrow/2"
           prevUrl="/themes/tomorrow"
         />

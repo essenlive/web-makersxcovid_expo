@@ -8,13 +8,13 @@ const U2 = (props) => {
     <Layout title="Production">
       <Photo
         src="/photos/production/homemakers-1-quentin_chevrier.jpg"
-        alt="Atelier Draft - Crédit Photo : Quentin Chevrier"
+        alt="Homemakers - Crédit Photo : Quentin Chevrier"
         name="Quentin Chevrier"
       />
       <Section>
         <Caption
           theme="Production"
-          description="Atelier Draft"
+          description="Homemakers"
           nextUrl="/themes/production/3"
           prevUrl="/themes/production/1"
         />

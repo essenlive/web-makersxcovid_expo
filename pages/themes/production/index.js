@@ -1,31 +1,27 @@
-import Head from "next/head";
-import NavigationBar from "@components/NavigationBar";
-import Footer from "@components/Footer";
-import Link from "next/link";
+import Layout from "@components/Layout";
+import Section from "@components/Section";
+import Photo from "@components/Photo";
+import Caption from "@components/Caption";
 
 const Production = (props) => {
   return (
-    <div className="">
-      <Head>
-        <title>MakersCovid Paris | Production </title>
-      </Head>
 
-      <NavigationBar />
-
-      <section className="text-black body-font">
-        <div className="min-h-screen w-screen object-cover top-0 fixed z-0">
-          <div className="h-screen w-screen bg-white bg-opacity-25 top-0 absolute z-10"></div>
-          <img
-            className="h-screen w-screen object-cover top-0 absolute"
-            src="/photos/home/draft_ateliers-1-quentin_chevrier.jpg"
-            alt="Draft Ateliers - Crédit Photo : Quentin Chevrier"
-          />
-        </div>
-        <div className="min-h-screen w-screen object-cover top-0 fixed z-0"></div>
-      </section>
-
-      <Footer />
-    </div>
+    <Layout title="Production">
+      <Photo
+        src="/photos/production/mon_atelier_en_ville-1-quentin_chevrier.jpg"
+        alt="Mon Atelier En Ville - Crédit Photo : Quentin Chevrier"
+        name="Quentin Chevrier"
+        dark
+      />
+      <Section>
+        <Caption
+          theme="Production"
+          description="En dialoguant avec les soignants, les makers identifient de nouveaux besoins. La production se répartit entre visières, surblouses et masques en tissu. Les quantités sont très importantes : en l’espace de deux jours, le collectif Makers Covid Paris a recensé, uniquement sur son réseau, plus de 20 000 demandes venant essentiellement de structures médicales, de libéraux et de centres d’accueil."
+          nextUrl="/themes/production/1"
+          prevUrl="/themes/production/6"
+        />
+      </Section>
+    </Layout>
   );
 };
 

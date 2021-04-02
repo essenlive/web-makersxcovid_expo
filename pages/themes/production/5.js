@@ -8,13 +8,13 @@ const U5 = (props) => {
     <Layout title="Production">
       <Photo
         src="/photos/production/makers_maison-2-quentin_chevrier.jpg"
-        alt="Atelier Draft - Crédit Photo : Quentin Chevrier"
+        alt="Factory @ Home - Crédit Photo : Quentin Chevrier"
         name="Quentin Chevrier"
       />
       <Section>
         <Caption
           theme="Production"
-          description="Atelier Draft"
+          description="Factory @ Home"
           nextUrl="/themes/production/6"
           prevUrl="/themes/production/4"
         />

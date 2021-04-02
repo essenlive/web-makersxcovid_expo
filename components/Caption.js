@@ -2,8 +2,8 @@ import Link from "next/link";
 
 const Caption = (props) => {
   return (
-    <div className="text-base w-2/5">
-      <div className="p-4 border-4 bg-white border-black">
+    <div className="text-base w-1/1 md:w-1/3">
+      <div className="p-4 border-4 hover:bg-white border-black">
         <h3 className="uppercase font-black mb-4">
           {props.theme}
         </h3>
@@ -11,9 +11,9 @@ const Caption = (props) => {
           {props.description}
         </p>
       </div>
-      <div className="flex flex-row bg-white text-sm border-4 border-black mt-10">
+      <div className="flex flex-row text-sm border-4 border-black mt-4">
         <Link href={props.prevUrl}>
-          <div className="p-4 font-bold w-2/5 inline-flex cursor-pointer items-center justify-center">
+          <div className=" hover:bg-white p-4 font-bold w-2/5 inline-flex cursor-pointer items-center justify-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -31,7 +31,7 @@ const Caption = (props) => {
             Précédente
           </div>
         </Link>
-        <div className="p-4 justify-center font-bold border-l-4 border-black w-1/5 inline-flex cursor-pointer items-center ">
+        <div className=" hover:bg-white p-4 justify-center font-bold border-l-4 border-black w-1/5 inline-flex cursor-pointer items-center ">
           <Link href="/themes">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -50,7 +50,7 @@ const Caption = (props) => {
           </Link>
         </div>
         <Link href={props.nextUrl}>
-          <div className="p-4 font-bold border-l-4 border-black w-2/5 inline-flex cursor-pointer items-center justify-center">
+          <div className=" hover:bg-white p-4 font-bold border-l-4 border-black w-2/5 inline-flex cursor-pointer items-center justify-center">
             Suivante
             <svg
               xmlns="http://www.w3.org/2000/svg"

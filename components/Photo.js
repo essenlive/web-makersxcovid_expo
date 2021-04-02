@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 const Photo = (props) => {
     return (
       <div className="min-h-screen w-screen object-cover top-0 fixed z-0">
@@ -7,12 +9,17 @@ const Photo = (props) => {
         {props.light ? (
           <div className="h-screen w-screen bg-black bg-opacity-25 top-0 absolute z-10"></div>
         ) : null}
-        <img
+
+        <Image
           className="h-screen w-screen object-cover top-0 absolute"
           src={props.src}
           alt={props.description}
+          layout="fill"
+          priority
         />
-        <div className="h-min font-bold uppercase right-16 bottom-8 absolute z-20 opacity-70">© {props.name}</div>
+        <img
+        />
+        <div className="h-min font-bold uppercase right-2 bottom-0 absolute z-20 opacity-70">© {props.name}</div>
       </div>
     );
 }

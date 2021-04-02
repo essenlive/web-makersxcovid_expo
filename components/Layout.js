@@ -1,5 +1,4 @@
 import NavigationBar from "@components/NavigationBar";
-import Footer from "@components/Footer";
 import Head from "next/head";
 
 const Layout = (props) => {
@@ -15,7 +14,6 @@ const Layout = (props) => {
           {props.children}
         </section>
 
-        <Footer />
       </div>
     );
 }

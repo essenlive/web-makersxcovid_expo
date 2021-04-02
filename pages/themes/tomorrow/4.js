@@ -3,24 +3,24 @@ import Section from "@components/Section";
 import Photo from "@components/Photo";
 import Caption from "@components/Caption";
 
-const U2 = (props) => {
+const U4 = (props) => {
   return (
     <Layout title="Demain">
       <Photo
-        src="/photos/tomorrow/ghu-1-quentin_chevrier.jpg"
-        alt="GHU - Crédit Photo : Quentin Chevrier"
+        src="/photos/tomorrow/hotel_dieu-1-quentin_chevrier.jpg"
+        alt="Hotel Dieu - Crédit Photo : Quentin Chevrier"
         name="Quentin Chevrier"
       />
       <Section>
         <Caption
           theme="Demain"
-          description="GHU"
-          nextUrl="/themes/tomorrow/3"
-          prevUrl="/themes/tomorrow/1"
+          description="Hotel Dieu"
+          nextUrl="/themes/tomorrow/"
+          prevUrl="/themes/tomorrow/3"
         />
       </Section>
     </Layout>
   );
 };
 
-export default U2;
+export default U4;
