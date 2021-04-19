@@ -16,7 +16,7 @@ const Production = (props) => {
         color3="#eda8a1"
         dark
       />
-      <Section>
+      <Section className="justify-end">
         <Caption
           theme="Production"
           description="En dialoguant avec les soignants, les makers identifient de nouveaux besoins. La production se répartit entre visières, surblouses et masques en tissu. Les quantités sont très importantes : en l’espace de deux jours, le collectif Makers Covid Paris a recensé, uniquement sur son réseau, plus de 20 000 demandes venant essentiellement de structures médicales, de libéraux et de centres d’accueil."

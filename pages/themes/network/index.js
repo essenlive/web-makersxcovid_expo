@@ -14,7 +14,7 @@ const Network = (props) => {
         color2="#c6d9e7"
         color3="#e2f2fe"
       />
-      <Section>
+      <Section className="justify-end">
         <Caption
           theme="Réseau(x)"
           description="En quelques jours, le réseau s’organise : il faut trouver les matériaux, centraliser les demandes et répartir la production entre les lieux. Associations, fablabs, tiers-lieux, entreprises, médiathèques ou encore écoles : ces espaces aux profils très différents forment un réseau de réseaux dont la solidarité est le pivot."

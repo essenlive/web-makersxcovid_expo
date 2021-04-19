@@ -14,7 +14,7 @@ const U3 = (props) => {
         color2="#90d1d7"
         color3="#b8bee2"
         />
-      <Section>
+      <Section className="justify-end">
         <Caption
           theme="Urgence"
           description="La Pitié Salpetrière"

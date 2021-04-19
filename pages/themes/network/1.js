@@ -11,7 +11,7 @@ const N1 = (props) => {
         alt="Carton Plein - Crédit Photo : Quentin Chevrier"
         name="Quentin Chevrier"
       />
-      <Section>
+      <Section className="justify-end">
         <Caption
           theme="Réseau(x)"
           description="Carton Plein"

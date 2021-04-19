@@ -14,7 +14,7 @@ const U4 = (props) => {
         color2="#92c0f3"
         color3="#c1dff5"
       />
-      <Section>
+      <Section className="justify-end">
         <Caption
           theme="Demain"
           description="Hotel Dieu"

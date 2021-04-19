@@ -14,7 +14,7 @@ const N2 = (props) => {
         color2="#8bb0cf"
         color3="#cfdef2"
       />
-      <Section>
+      <Section className="justify-end">
         <Caption
           theme="Réseau(x)"
           description="Makerspace Volumes"

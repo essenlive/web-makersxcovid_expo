@@ -11,7 +11,7 @@ const U1 = (props) => {
         alt="Médiatheque Marguerite Duras - Crédit Photo : Quentin Chevrier"
         name="Quentin Chevrier"
       />
-      <Section>
+      <Section className="justify-end">
         <Caption
           theme="Demain"
           description="Médiatheque Marguerite Duras"

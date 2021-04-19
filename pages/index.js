@@ -16,7 +16,7 @@ export default function Home() {
         color2="#e2e7e6"
         color3="#e8ecf8"
         />
-        <Section>
+      <Section className="container mx-auto justify-center">
 
           <Link href="/themes">
           <button className="flex bg-white hover:bg-transparent uppercase cursor-pointer h-min border-4 p-4 border-black text-base font-bold mt-12 items-center mx-auto">

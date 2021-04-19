@@ -14,7 +14,7 @@ const U5 = (props) => {
         color2="#0070b0"
         color3="#bfbbb7"
       />
-      <Section>
+      <Section className="justify-end">
         <Caption
           theme="Production"
           description="Factory @ Home"

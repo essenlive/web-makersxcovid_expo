@@ -8,15 +8,4 @@
 .transit{
     transition: 0.5s ease-in-out;
     background-size: 100% 100%;
-    /* animation: animateGradient 5s ease infinite; */
 }
-
-
-/* @keyframes animateGradient {
-  from {
-    background-position: 0% 100%;
-  }
-  to {
-    background-position: 100% 0%;
-  }
-} */

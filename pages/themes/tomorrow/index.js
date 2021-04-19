@@ -15,7 +15,7 @@ const Tomorrow = (props) => {
         color3="#dde3f0"
         dark
       />
-      <Section>
+      <Section className="justify-end">
         <Caption
           theme="Demain"
           description="Et si demain nous n’attendions pas la crise...?

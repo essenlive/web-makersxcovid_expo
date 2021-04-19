@@ -14,7 +14,7 @@ const N3 = (props) => {
         color2="#ebe6e5"
         color3="#e6e8ea"
       />
-      <Section>
+      <Section className="justify-end">
         <Caption
           theme="Réseau(x)"
           description="Hotel Dieu"
