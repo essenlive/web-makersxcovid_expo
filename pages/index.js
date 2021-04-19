@@ -11,7 +11,10 @@ export default function Home() {
         <Photo
           name="Quentin Chevrier"
           src="/photos/home/simplonlab_textiles-1-quentin_chevrier.jpg"
-          alt="SimplonLab - Crédit Photo : Quentin Chevrier"
+        alt="SimplonLab - Crédit Photo : Quentin Chevrier"
+        color1="#e5e9ec"
+        color2="#e2e7e6"
+        color3="#e8ecf8"
         />
         <Section>
 

@@ -10,6 +10,9 @@ const U2 = (props) => {
         src="/photos/production/homemakers-1-quentin_chevrier.jpg"
         alt="Homemakers - Crédit Photo : Quentin Chevrier"
         name="Quentin Chevrier"
+        color1="#ff5462"
+        color2="#c9cdd9"
+        color3="#b3bcc7"
       />
       <Section>
         <Caption

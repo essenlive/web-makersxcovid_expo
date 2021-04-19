@@ -17,6 +17,9 @@ const N1 = (props) => {
           description="Carton Plein"
           nextUrl="/themes/network/2"
           prevUrl="/themes/network/"
+          color1="#a5c2d6"
+          color2="#f6f4fc"
+          color3="#e7e3df"
         />
       </Section>
     </Layout>

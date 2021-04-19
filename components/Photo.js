@@ -6,16 +6,16 @@ const Photo = (props) => {
 
   const [loaded, setLoaded] = useState(false);
 
-  let color1 = props.color1 || '#f7807d',
-    color2 = props.color2 || '#d8cbbe',
-    color3 = props.color13 || '#ffffff';
+  let color1 = props.color1 ?? '#d8cbbe',
+    color2 = props.color2 ?? '#ffffff',
+    color3 = props.color3 ?? '#e6ceb8';
 
     return (
       <div 
         className="min-h-screen w-screen object-cover top-0 fixed z-0">
         <div 
           className={classNames("h-screen w-screen top-0 absolute z-20 opacity-100 transit", { 'fadeIn': loaded })} style={{
-            background: `linear-gradient(62deg,  ${color1} 0%,${color2} 50%,${color3} 100%)`
+            background: `linear-gradient(62deg,  ${color1},${color2},${color3})`
           }}></div>
         {props.dark ? (
           <div className="h-screen w-screen bg-white bg-opacity-25 top-0 absolute z-10"></div>

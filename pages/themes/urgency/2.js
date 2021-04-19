@@ -10,6 +10,9 @@ const U2 = (props) => {
         src="/photos/urgency/woma-1-quentin_chevrier.jpg"
         alt="WoMa - Crédit Photo : Quentin Chevrier"
         name="Quentin Chevrier"
+        color1="#ead9cb"
+        color2="#dfe4ee"
+        color3="#d3d9de"
       />
       <Section>
         <Caption

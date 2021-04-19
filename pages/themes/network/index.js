@@ -10,13 +10,16 @@ const Network = (props) => {
         src="/photos/network/pitiee_salpetriere-1-quentin_chevrier.jpg"
         alt="La Pitié Salpetrière - Crédit Photo : Quentin Chevrier"
         name="Quentin Chevrier"
+        color1="#81a6bc"
+        color2="#c6d9e7"
+        color3="#e2f2fe"
       />
       <Section>
         <Caption
           theme="Réseau(x)"
           description="En quelques jours, le réseau s’organise : il faut trouver les matériaux, centraliser les demandes et répartir la production entre les lieux. Associations, fablabs, tiers-lieux, entreprises, médiathèques ou encore écoles : ces espaces aux profils très différents forment un réseau de réseaux dont la solidarité est le pivot."
           nextUrl="/themes/network/1"
-          prevUrl="/themes/network/4"
+          prevUrl="/themes/network/3"
         />
       </Section>
     </Layout>

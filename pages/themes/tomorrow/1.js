@@ -17,6 +17,9 @@ const U1 = (props) => {
           description="Médiatheque Marguerite Duras"
           nextUrl="/themes/tomorrow/2"
           prevUrl="/themes/tomorrow"
+          color1="#455f68"
+          color2="#e8cfc3"
+          color3="#fefefe"
         />
       </Section>
     </Layout>

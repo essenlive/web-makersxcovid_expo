@@ -6,11 +6,17 @@
     opacity: 0 !important;
 }
 .transit{
-    transition: 2s ease-in-out;
+    transition: 0.5s ease-in-out;
+    background-size: 100% 100%;
+    /* animation: animateGradient 5s ease infinite; */
 }
 
-@keyframes fadeIn {
-  100% {opacity:0;}
-  50% {opacity:1;}
-  0% {opacity:1;}
-}
+
+/* @keyframes animateGradient {
+  from {
+    background-position: 0% 100%;
+  }
+  to {
+    background-position: 100% 0%;
+  }
+} */

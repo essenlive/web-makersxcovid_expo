@@ -10,6 +10,9 @@ const U2 = (props) => {
         src="/photos/tomorrow/ghu-1-quentin_chevrier.jpg"
         alt="GHU - Crédit Photo : Quentin Chevrier"
         name="Quentin Chevrier"
+        color1="#6f94c4"
+        color2="#e8f0fb"
+        color3="#878b8d"
       />
       <Section>
         <Caption

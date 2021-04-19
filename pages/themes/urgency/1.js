@@ -10,6 +10,9 @@ const U1 = (props) => {
         src="/photos/urgency/draft_ateliers-1-quentin_chevrier.jpg"
         alt="Atelier Draft - Crédit Photo : Quentin Chevrier"
         name="Quentin Chevrier"
+        color1="#a8c0cd"
+        color2="#e9bbad"
+        color3="#5ea164"
       />
       <Section>
         <Caption

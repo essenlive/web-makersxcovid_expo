@@ -10,6 +10,9 @@ const N2 = (props) => {
         src="/photos/network/makerspace_volumes-1-quentin_chevrier.jpg"
         alt="Makerspace Volumes - Crédit Photo : Quentin Chevrier"
         name="Quentin Chevrier"
+        color1="#e1c29e"
+        color2="#8bb0cf"
+        color3="#cfdef2"
       />
       <Section>
         <Caption

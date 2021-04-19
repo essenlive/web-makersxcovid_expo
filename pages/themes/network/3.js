@@ -10,6 +10,9 @@ const N3 = (props) => {
         src="/photos/network/hotel_dieu-1-quentin_chevrier.jpg"
         alt="Hotel Dieu - Crédit Photo : Quentin Chevrier"
         name="Quentin Chevrier"
+        color1="#bcc6ce"
+        color2="#ebe6e5"
+        color3="#e6e8ea"
       />
       <Section>
         <Caption

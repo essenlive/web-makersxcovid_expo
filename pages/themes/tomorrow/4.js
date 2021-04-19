@@ -10,6 +10,9 @@ const U4 = (props) => {
         src="/photos/tomorrow/hotel_dieu-1-quentin_chevrier.jpg"
         alt="Hotel Dieu - Crédit Photo : Quentin Chevrier"
         name="Quentin Chevrier"
+        color1="#c9dbea"
+        color2="#92c0f3"
+        color3="#c1dff5"
       />
       <Section>
         <Caption

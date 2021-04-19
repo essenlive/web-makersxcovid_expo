@@ -10,6 +10,9 @@ const U5 = (props) => {
         src="/photos/production/makers_maison-2-quentin_chevrier.jpg"
         alt="Factory @ Home - Crédit Photo : Quentin Chevrier"
         name="Quentin Chevrier"
+        color1="#b6b9be"
+        color2="#0070b0"
+        color3="#bfbbb7"
       />
       <Section>
         <Caption

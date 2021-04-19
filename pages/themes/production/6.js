@@ -10,6 +10,9 @@ const U6 = (props) => {
         src="/photos/production/woma-quentin_chevrier.jpg"
         alt="WoMa - Crédit Photo : Quentin Chevrier"
         name="Quentin Chevrier"
+        color1="#b49877"
+        color2="#d3c7bf"
+        color3="#ccd7da"
       />
       <Section>
         <Caption

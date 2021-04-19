@@ -11,6 +11,9 @@ const Production = (props) => {
         src="/photos/production/mon_atelier_en_ville-1-quentin_chevrier.jpg"
         alt="Mon Atelier En Ville - Crédit Photo : Quentin Chevrier"
         name="Quentin Chevrier"
+        color1="#e6a979"
+        color2="#ece7ed"
+        color3="#eda8a1"
         dark
       />
       <Section>

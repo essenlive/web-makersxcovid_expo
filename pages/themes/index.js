@@ -10,6 +10,9 @@ const Themes = (props) => {
           name="Quentin Chevrier"
           src="/photos/home/draft_ateliers-1-quentin_chevrier.jpg"
           alt="Draft Ateliers - Crédit Photo : Quentin Chevrier"
+          color1="#e7ddd1"
+          color2="#d1b9a3"
+          color3="#ae937d"
           dark
         />
         <Section>

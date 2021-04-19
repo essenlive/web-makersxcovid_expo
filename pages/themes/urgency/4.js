@@ -10,6 +10,9 @@ const U4 = (props) => {
         src="/photos/urgency/neuro_pitie_salpetriere-2-quentin_chevrier.jpg"
         alt="Pitie salpetrière - Crédit Photo : Quentin Chevrier"
         name="Quentin Chevrier"
+        color1="#9ca9a0"
+        color2="#8fddcb"
+        color3="#f1f0ea"
         />
       <Section>
         <Caption

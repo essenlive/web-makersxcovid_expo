@@ -10,6 +10,9 @@ const U3 = (props) => {
         src="/photos/tomorrow/carton_plein_fred-1-quentin_chevrier.jpg"
         alt="Carton Plein - Crédit Photo : Quentin Chevrier"
         name="Quentin Chevrier"
+        color1="#fffbf4"
+        color2="#fc927f"
+        color3="#d7c1b9"
       />
       <Section>
         <Caption

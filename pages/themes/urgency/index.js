@@ -10,6 +10,9 @@ const Urgency = (props) => {
         src="/photos/urgency/homemakers-1-quentin_chevrier.jpg"
         alt="Homemakers - Crédit Photo : Quentin Chevrier"
         name="Quentin Chevrier"
+        color1="#d0c3b3"
+        color2="#e8ebed"
+        color3="#e6ceb8"
         dark
       />
       <Section>

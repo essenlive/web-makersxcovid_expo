@@ -10,6 +10,9 @@ const Tomorrow = (props) => {
         src="/photos/tomorrow/homemakers-1-quentin_chevrier.jpg"
         alt="Homemakers - Crédit Photo : Quentin Chevrier"
         name="Quentin Chevrier"
+        color1="#f7fafc"
+        color2="#548bc1"
+        color3="#dde3f0"
         dark
       />
       <Section>
