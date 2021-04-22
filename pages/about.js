@@ -69,7 +69,7 @@ export default function About() {
                 <img alt="Volumes" src="https://hallesciviques.org/wp-content/uploads/2019/11/logo-volumes.png" />
               </a>
               <a className="p-2 hover:bg-gray-200 multiply" href="http://yaplusk.org/hyper/" target="_blank" rel="noopener noreferrer">
-                <img alt="Ya+k" src="http://yaplusk.org/wp-content/uploads/2016/11/GIF-introduction-YAK.ORG-feat-CHIFUMI-NEW.jpg" />
+                <img alt="Ya+k" src="https://lh3.googleusercontent.com/proxy/jq6kUCO02myemSBoIPVORUPCdF4cYY8OF_KWKicrZGdaQgckMdEj2AZYRTVwiTUlHV_fZpf_YIuips0Ai7oaLmzq552j3VWSQaPhE3_NPimabDs9miCAWQQ-ag4rnvaTug4zBlvrxBtlx8NexHBaJu9l1g" />
               </a>
               <a className="p-2 hover:bg-gray-200 multiply" href="https://www.efabrik.fr" target="_blank" rel="noopener noreferrer">
                 <img alt="FabLab Science Ouverte / E-FABRIK'" src="https://www.grandeecolenumerique.fr/sites/default/files/148069000000307130.png" />
