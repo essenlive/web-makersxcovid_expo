@@ -69,7 +69,7 @@ export default function About() {
                 <img alt="Volumes" src="https://hallesciviques.org/wp-content/uploads/2019/11/logo-volumes.png" />
               </a>
               <a className="p-2 hover:bg-gray-200 multiply" href="http://yaplusk.org/hyper/" target="_blank" rel="noopener noreferrer">
-                <img alt="Ya+k" src="https://lh3.googleusercontent.com/proxy/jq6kUCO02myemSBoIPVORUPCdF4cYY8OF_KWKicrZGdaQgckMdEj2AZYRTVwiTUlHV_fZpf_YIuips0Ai7oaLmzq552j3VWSQaPhE3_NPimabDs9miCAWQQ-ag4rnvaTug4zBlvrxBtlx8NexHBaJu9l1g" />
+                <img alt="Ya+k" src="/ya+k.png" />
               </a>
               <a className="p-2 hover:bg-gray-200 multiply" href="https://www.efabrik.fr" target="_blank" rel="noopener noreferrer">
                 <img alt="FabLab Science Ouverte / E-FABRIK'" src="https://www.grandeecolenumerique.fr/sites/default/files/148069000000307130.png" />
@@ -95,11 +95,12 @@ export default function About() {
               <ul className={"mb-4"}>
                 <li><span className={"font-bold"}>Octobre 2020</span>- La Tréso</li>
                 <li><span className={"font-bold"}>Janvier 2021</span>- SimplonLab</li>
-                <li><span className={"font-bold"}>Mai 2021</span>- Médiathèque Marguerite Duras</li>
+                <li><span className={"font-bold"}>18, 19, 20 Juin 2021</span>- Festival Ondes de Coop</li>
                 <li><span className={"font-bold"}>Juin 2021</span>- La Mine</li>
                 <li><span className={"font-bold"}>Aout 2021</span>- Homemakers </li>
                 <li><span className={"font-bold"}>October 2021</span>- Volumes</li>
-                <li><span className={"font-bold"}>Janvier 2021</span>- WoMa</li>
+                <li><span className={"font-bold"}>Décembre 2021</span>- Médiathèque Marguerite Duras</li>
+                <li><span className={"font-bold"}>Février 2021</span>- WoMa</li>
               </ul>
               Si vous êtes interréssés à héberger l'exposition, vous pouvez nous contacter en envoyant un mail à l'adresse : <a className={"font-bold bg-gray-200 hover:bg-gray-200"} href="mailto://hello@woma.fr"> hello@woma.fr </a>
             </div>
