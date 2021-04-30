@@ -1,8 +1,6 @@
 # makersxcovid-expo
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/bcb8fb84-db4c-453c-b5f7-43b4f6c2b93b/deploy-status)](https://app.netlify.com/sites/makerscovid-expo/deploys)
-
-This is website uses [Next.js](https://nextjs.org/) with [Tailwind css](https://tailwindcss.com/) and set up to be instantly deployed to [Netlify](https://url.netlify.com/Bk4UicocL)
+This is website uses [Next.js](https://nextjs.org/) with [Tailwind css](https://tailwindcss.com/) and set up to be instantly deployed to [Vercel](https://vercel.com/)
 
 
 ## Getting started
@@ -29,7 +27,7 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 ## Deployment
 
-The website will be automatically [here](https://makerscovid-expo.netlify.app/) deployed on each pushed commit.
+The website will be automatically [here](https://makerscovid.paris/) deployed on each pushed commit.
 
 
 ## Tools documentation
