@@ -6,7 +6,7 @@ const Layout = (props) => {
       <div>
         <Head>
           <title>MakersCovid Paris | {props.title}</title>
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" href="/favicon.png" />
         </Head>
         <NavigationBar />
 
