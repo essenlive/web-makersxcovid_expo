@@ -19,23 +19,23 @@ export default function Home() {
       <Section className="container mx-auto justify-center">
 
           <Link href="/themes">
-          <button className="flex bg-white hover:bg-transparent uppercase cursor-pointer h-min border-4 p-4 border-black text-base font-bold mt-12 items-center mx-auto">
-              Découvrir les photos
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                className="w-4 h-4 ml-1"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M17 8l4 4m0 0l-4 4m4-4H3"
-                />
-              </svg>
-            </button>
+            <button className="flex bg-white hover:bg-transparent uppercase cursor-pointer h-min border-4 p-4 border-black text-base font-bold mt-12 items-center mx-auto">
+                Découvrir les photos
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  className="w-4 h-4 ml-1"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M17 8l4 4m0 0l-4 4m4-4H3"
+                  />
+                </svg>
+              </button>
           </Link>
         </Section>
     </Layout>

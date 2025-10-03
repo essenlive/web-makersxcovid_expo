@@ -5,28 +5,28 @@ const NavigationBar = (props) => {
       <header className="text-black body-font relative top-0 w-full z-10">
         <div className="flex flex-wrap p-4 flex-col md:flex-row items-center uppercase ">
           <Link href="/">
-            <a className="flex cursor-pointer title-font uppercase font-black items-center mb-4 md:mb-0">
+            <span className="flex cursor-pointer title-font uppercase font-black items-center mb-4 md:mb-0">
               <span className="text-xl">MakersCovid.Paris</span>
-            </a>
+            </span>
           </Link>
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center font-bold">
             <Link href="/themes/urgency">
-              <a className=" border-transparent border-b-4 hover:border-black mr-5 cursor-pointer hover:text-gray-900">
+              <span className="border-transparent border-b-4 hover:border-black mr-5 cursor-pointer hover:text-gray-900">
                 Urgence
-              </a>
+              </span>
             </Link>
             <Link href="/themes/production">
-              <a className=" border-transparent border-b-4 hover:border-black mr-5 cursor-pointer hover:text-gray-900">
+              <span className="border-transparent border-b-4 hover:border-black mr-5 cursor-pointer hover:text-gray-900">
                 Production
-              </a>
+              </span>
             </Link>
             <Link href="/themes/network">
-              <a className=" border-transparent border-b-4 hover:border-black mr-5 cursor-pointer hover:text-gray-900">
+              <span className="border-transparent border-b-4 hover:border-black mr-5 cursor-pointer hover:text-gray-900">
                 Réseau
-              </a>
+              </span>
             </Link>
             <Link href="/themes/tomorrow">
-              <a className=" border-transparent border-b-4 hover:border-black mr-5 cursor-pointer hover:text-gray-900">Demain</a>
+              <span className="border-transparent border-b-4 hover:border-black mr-5 cursor-pointer hover:text-gray-900">Demain</span>
             </Link>
           </nav>
           <Link href="/about">

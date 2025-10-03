@@ -28,7 +28,7 @@ const Photo = (props) => {
           className={"h-screen w-screen object-cover top-0 absolute"}
           src={props.src}
           alt={props.description}
-          layout="fill"
+          fill={true}
           priority
           onLoad={() => setLoaded(true)}
         />

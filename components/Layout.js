@@ -5,7 +5,7 @@ const Layout = (props) => {
     return (
       <div>
         <Head>
-          <title>MakersCovid Paris | {props.title}</title>
+          <title>MakersCovid Paris | {JSON.stringify(props.title) }</title>
           <link rel="icon" href="/favicon.png" />
         </Head>
         <NavigationBar />

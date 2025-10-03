@@ -12,8 +12,7 @@ const Caption = (props) => {
         </p>
       </div>
       <div className="flex flex-row text-sm border-4 border-black mt-4">
-        <Link href={props.prevUrl}>
-          <div className=" hover:bg-white p-4 font-bold w-2/5 inline-flex cursor-pointer items-center justify-center">
+        <Link href={props.prevUrl} className="hover:bg-white p-4 font-bold w-2/5 inline-flex cursor-pointer items-center justify-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -24,15 +23,13 @@ const Caption = (props) => {
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                strokeWidth="2"
+                strokeWidth={2}
                 d="M10 19l-7-7m0 0l7-7m-7 7h18"
               />
             </svg>
             Précédente
-          </div>
         </Link>
-        <div className=" hover:bg-white p-4 justify-center font-bold border-l-4 border-black w-1/5 inline-flex cursor-pointer items-center ">
-          <Link href="/themes">
+        <Link href="/themes" className="hover:bg-white p-4 justify-center font-bold border-l-4 border-black w-1/5 inline-flex cursor-pointer items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -47,10 +44,8 @@ const Caption = (props) => {
                 d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"
               />
             </svg>
-          </Link>
-        </div>
-        <Link href={props.nextUrl}>
-          <div className=" hover:bg-white p-4 font-bold border-l-4 border-black w-2/5 inline-flex cursor-pointer items-center justify-center">
+        </Link>
+        <Link href={props.nextUrl} className="hover:bg-white p-4 font-bold border-l-4 border-black w-2/5 inline-flex cursor-pointer items-center justify-center">
             Suivante
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -66,7 +61,6 @@ const Caption = (props) => {
                 d="M14 5l7 7m0 0l-7 7m7-7H3"
               />
             </svg>
-          </div>
         </Link>
       </div>
     </div>
